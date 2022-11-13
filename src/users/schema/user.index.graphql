@@ -1,3 +1,10 @@
-#import Mutation from 'users.mutation.graphql'
-#import Query from 'users.queries.graphql'
-#import User, UserProfile from 'users.types.graphql'
+type Query{
+   ola: String
+}
+
+type Mutation{
+   insert(id:String):String!
+}
+
+
+

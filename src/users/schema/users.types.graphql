@@ -1,4 +1,4 @@
-input User {
+type User {
     id: Int
     name: String!
     email: String! 
