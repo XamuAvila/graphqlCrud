@@ -1,0 +1,14 @@
+input User {
+    id: Int
+    name: String!
+    email: String! 
+    passsword: String! 
+    active: String! 
+    created_at: String!
+}
+
+enum UserProfile {
+    COMMON
+    ADMINISTRATOR
+    MASTER
+}
