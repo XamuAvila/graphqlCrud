@@ -13,11 +13,6 @@ const server = new ApolloServer({
     schema,
     resolvers: {
         ...UserModule,
-        ...{
-            insert(_: any, id: String): String {
-                return "insert plz"
-            }
-        }
     }
 })
 
